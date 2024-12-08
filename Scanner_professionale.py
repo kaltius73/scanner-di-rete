@@ -9,7 +9,7 @@ from scapy.all import ARP, Ether, srp
 class NetworkScannerApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("Scanner di Rete by Antonio Cufari ver. 1.0")
+        self.root.title("Scanner di Rete ver. 1.0")
 
         main_frame = ttk.Frame(root)
         main_frame.pack(fill=tk.BOTH, expand=True)
